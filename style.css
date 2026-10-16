@@ -2,6 +2,23 @@ h2, h3 {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* pointer-events: none; */
+    position: absolute;
+    left: 40vw;
+}
+
+/* #mulai {
+    pointer-events: auto;
+} */
+.none {
+    display: none;
+}
+
 #board {
     width: 600px;
     height: 300px;
