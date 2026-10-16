@@ -20,6 +20,8 @@ function mulaiGame() {
     }
 
     dino.setAttribute("class", "")
+    mulai.setAttribute("class", "none")
+    username.setAttribute("class", "none")
 
     isMoving = true
 
@@ -71,7 +73,6 @@ function setObstacleMoving() {
         ) {
             isMoving = false
             dino.setAttribute("class", "freeze")
-            mulai.setAttribute("class", "none")
             mulaiUlang.setAttribute("class", "")
             alert("Game Over! Score " + user + " : " + document.getElementById('score').innerHTML)
             

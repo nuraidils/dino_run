@@ -8,13 +8,14 @@ h2, h3 {
     justify-content: center;
     align-items: center;
     /* pointer-events: none; */
-    position: absolute;
-    left: 40vw;
+    position: relative;
+    /* left: 40vw; */
 }
 
-/* #mulai {
-    pointer-events: auto;
-} */
+#mulai, #restart {
+    position: absolute;
+    top: 70px;
+}
 .none {
     display: none;
 }
